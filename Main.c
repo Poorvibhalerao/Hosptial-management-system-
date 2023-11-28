@@ -1,3 +1,4 @@
+#include "Hms.h"
 int main()
 {
     int ch;
