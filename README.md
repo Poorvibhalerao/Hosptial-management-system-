@@ -6,8 +6,10 @@ This project demonstrates patient management and appointment scheduling function
 -Admin Login 
 -Patient management
 -Appointment scheduling 
+- deleting patient record
 
 # Usage
 **Admin Login** : Use the admin credentials to log in.
 **Patient management** : add new patient, patient record or patient history.
 **Appoinment scheduling** : Schedule appointments for patients.
+**Deleting patient record** : delete patient record file.
