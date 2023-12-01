@@ -1,4 +1,3 @@
-#include "Hms.h"
 int main()
 {
     int ch;
@@ -20,6 +19,7 @@ int main()
             printf("press 1 for adding new patient\n");
             printf("press 2 for searching any patient record\n");
             printf("press 3 for booking appointments\n");
+            printf("Press 4 for deleting the patient record\n");
 
             printf("Enter your choice\n");
             scanf("%d", &ch);
@@ -33,6 +33,9 @@ int main()
                 break;
             case 3:
                 newappointment();
+                break;
+            case 4:
+                delete();
                 break;
 
             default:
