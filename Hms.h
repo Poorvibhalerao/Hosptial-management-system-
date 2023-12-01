@@ -4,6 +4,7 @@
 void newpatient();     //  adding new patient
 void search();         // patient record
 void newappointment(); // appointment scheduling
+void delete();
 const char correctUsername[20] = "poorvi";
 const char correctPassword[10] = "1234";
 struct patient
